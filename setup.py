@@ -9,7 +9,7 @@ setup(
     author="Black Duck CoPilot",
     author_email="copilot@blackducksoftware.com",
     url="https://github.com/BlackDuckCoPilot/example-pip-travis",
-    install_requires=["requests", "numpy", "Django==1.9.6"],
+    install_requires=["requests", "numpy", "Django==4.2.21"],
     entry_points={
       'console_scripts': [
           'example-pip-travis=Main:main'
